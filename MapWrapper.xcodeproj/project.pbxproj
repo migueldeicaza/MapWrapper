@@ -11,6 +11,13 @@
 		49E0EE3129BB869000F701F2 /* MapWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E0EE2629BB868F00F701F2 /* MapWrapper.framework */; };
 		49E0EE3629BB869000F701F2 /* MapWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E0EE3529BB869000F701F2 /* MapWrapperTests.swift */; };
 		49E0EE3729BB869000F701F2 /* MapWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E0EE2929BB868F00F701F2 /* MapWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E0EE4129BB86AB00F701F2 /* MapWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E0EE4029BB86AB00F701F2 /* MapWrapper.swift */; };
+		49E0EE4929BB8A7100F701F2 /* SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E0EE4829BB8A7100F701F2 /* SampleApp.swift */; };
+		49E0EE4B29BB8A7100F701F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E0EE4A29BB8A7100F701F2 /* ContentView.swift */; };
+		49E0EE4D29BB8A7200F701F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E0EE4C29BB8A7200F701F2 /* Assets.xcassets */; };
+		49E0EE5029BB8A7200F701F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E0EE4F29BB8A7200F701F2 /* Preview Assets.xcassets */; };
+		49E0EE5529BB8A8000F701F2 /* MapWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E0EE2629BB868F00F701F2 /* MapWrapper.framework */; };
+		49E0EE5729BB96A200F701F2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 49E0EE5629BB96A200F701F2 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,13 @@
 		49E0EE2A29BB868F00F701F2 /* MapWrapper.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MapWrapper.docc; sourceTree = "<group>"; };
 		49E0EE3029BB869000F701F2 /* MapWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E0EE3529BB869000F701F2 /* MapWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapWrapperTests.swift; sourceTree = "<group>"; };
+		49E0EE4029BB86AB00F701F2 /* MapWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapWrapper.swift; sourceTree = "<group>"; };
+		49E0EE4629BB8A7000F701F2 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E0EE4829BB8A7100F701F2 /* SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleApp.swift; sourceTree = "<group>"; };
+		49E0EE4A29BB8A7100F701F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49E0EE4C29BB8A7200F701F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49E0EE4F29BB8A7200F701F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49E0EE5629BB96A200F701F2 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,15 +61,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		49E0EE4329BB8A7000F701F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E0EE5529BB8A8000F701F2 /* MapWrapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		49E0EE1C29BB868F00F701F2 = {
 			isa = PBXGroup;
 			children = (
+				49E0EE5629BB96A200F701F2 /* LICENSE */,
+				49E0EE4029BB86AB00F701F2 /* MapWrapper.swift */,
 				49E0EE2829BB868F00F701F2 /* MapWrapper */,
 				49E0EE3429BB869000F701F2 /* MapWrapperTests */,
+				49E0EE4729BB8A7100F701F2 /* Sample */,
 				49E0EE2729BB868F00F701F2 /* Products */,
+				49E0EE5429BB8A8000F701F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +90,7 @@
 			children = (
 				49E0EE2629BB868F00F701F2 /* MapWrapper.framework */,
 				49E0EE3029BB869000F701F2 /* MapWrapperTests.xctest */,
+				49E0EE4629BB8A7000F701F2 /* Sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +110,32 @@
 				49E0EE3529BB869000F701F2 /* MapWrapperTests.swift */,
 			);
 			path = MapWrapperTests;
+			sourceTree = "<group>";
+		};
+		49E0EE4729BB8A7100F701F2 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				49E0EE4829BB8A7100F701F2 /* SampleApp.swift */,
+				49E0EE4A29BB8A7100F701F2 /* ContentView.swift */,
+				49E0EE4C29BB8A7200F701F2 /* Assets.xcassets */,
+				49E0EE4E29BB8A7200F701F2 /* Preview Content */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		49E0EE4E29BB8A7200F701F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				49E0EE4F29BB8A7200F701F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49E0EE5429BB8A8000F701F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +188,23 @@
 			productReference = 49E0EE3029BB869000F701F2 /* MapWrapperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		49E0EE4529BB8A7000F701F2 /* Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E0EE5129BB8A7200F701F2 /* Build configuration list for PBXNativeTarget "Sample" */;
+			buildPhases = (
+				49E0EE4229BB8A7000F701F2 /* Sources */,
+				49E0EE4329BB8A7000F701F2 /* Frameworks */,
+				49E0EE4429BB8A7000F701F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sample;
+			productName = Sample;
+			productReference = 49E0EE4629BB8A7000F701F2 /* Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +219,9 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					49E0EE2F29BB869000F701F2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					49E0EE4529BB8A7000F701F2 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -168,6 +241,7 @@
 			targets = (
 				49E0EE2529BB868F00F701F2 /* MapWrapper */,
 				49E0EE2F29BB869000F701F2 /* MapWrapperTests */,
+				49E0EE4529BB8A7000F701F2 /* Sample */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49E0EE5729BB96A200F701F2 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +262,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		49E0EE4429BB8A7000F701F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E0EE5029BB8A7200F701F2 /* Preview Assets.xcassets in Resources */,
+				49E0EE4D29BB8A7200F701F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49E0EE4129BB86AB00F701F2 /* MapWrapper.swift in Sources */,
 				49E0EE2B29BB868F00F701F2 /* MapWrapper.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,6 +288,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				49E0EE3629BB869000F701F2 /* MapWrapperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E0EE4229BB8A7000F701F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E0EE4B29BB8A7100F701F2 /* ContentView.swift in Sources */,
+				49E0EE4929BB8A7100F701F2 /* SampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +490,7 @@
 		49E0EE3E29BB869000F701F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PJQC57N853;
@@ -412,6 +507,7 @@
 		49E0EE3F29BB869000F701F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PJQC57N853;
@@ -420,6 +516,64 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xibbon.laterminal.MapWrapperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49E0EE5229BB8A7200F701F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sample/Preview Content\"";
+				DEVELOPMENT_TEAM = PJQC57N853;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xibbon.laterminal.Sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49E0EE5329BB8A7200F701F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sample/Preview Content\"";
+				DEVELOPMENT_TEAM = PJQC57N853;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xibbon.laterminal.Sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,6 +605,15 @@
 			buildConfigurations = (
 				49E0EE3E29BB869000F701F2 /* Debug */,
 				49E0EE3F29BB869000F701F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49E0EE5129BB8A7200F701F2 /* Build configuration list for PBXNativeTarget "Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E0EE5229BB8A7200F701F2 /* Debug */,
+				49E0EE5329BB8A7200F701F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

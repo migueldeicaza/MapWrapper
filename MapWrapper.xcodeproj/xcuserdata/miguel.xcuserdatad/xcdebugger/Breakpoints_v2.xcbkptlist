@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EBF4432B-27DC-49A3-A660-D087C9BEFC9C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D0FD49A-1845-4BE5-8217-B2EE5F1F4059"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MapWrapper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "init(region:items:mapper:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8D0FD49A-1845-4BE5-8217-B2EE5F1F4059 - c5280740acaabf9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapWrapper.MapKitWrapper.init(region: SwiftUI.Binding&lt;__C.MKCoordinateRegion&gt;, items: SwiftUI.Binding&lt;&#x3c4;_0_0&gt;, mapper: (&#x3c4;_0_0.Element) -&gt; &#x3c4;_0_1) -&gt; MapWrapper.MapKitWrapper&lt;&#x3c4;_0_0, &#x3c4;_0_1&gt;"
+                  moduleName = "MapWrapper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/miguel/cvs/MapWrapper/MapWrapper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "545">
+               </Location>
+               <Location
+                  uuid = "8D0FD49A-1845-4BE5-8217-B2EE5F1F4059 - c5280740acaabf9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapWrapper.MapKitWrapper.init(region: SwiftUI.Binding&lt;__C.MKCoordinateRegion&gt;, items: SwiftUI.Binding&lt;&#x3c4;_0_0&gt;, mapper: (&#x3c4;_0_0.Element) -&gt; &#x3c4;_0_1) -&gt; MapWrapper.MapKitWrapper&lt;&#x3c4;_0_0, &#x3c4;_0_1&gt;"
+                  moduleName = "MapWrapper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/miguel/cvs/MapWrapper/MapWrapper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "576">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1AD6754A-4968-4208-A23D-E6EA3AF38C19"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MapWrapper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "makeUIView(context:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1AD6754A-4968-4208-A23D-E6EA3AF38C19 - 7d501ad468b3a761"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapWrapper.MapKitWrapper.makeUIView(context: SwiftUI.UIViewRepresentableContext&lt;MapWrapper.MapKitWrapper&lt;&#x3c4;_0_0, &#x3c4;_0_1&gt;&gt;) -&gt; __C.MKMapView"
+                  moduleName = "MapWrapper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/miguel/cvs/MapWrapper/MapWrapper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  uuid = "1AD6754A-4968-4208-A23D-E6EA3AF38C19 - 7d501ad468b3a761"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapWrapper.MapKitWrapper.makeUIView(context: SwiftUI.UIViewRepresentableContext&lt;MapWrapper.MapKitWrapper&lt;&#x3c4;_0_0, &#x3c4;_0_1&gt;&gt;) -&gt; __C.MKMapView"
+                  moduleName = "MapWrapper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/miguel/cvs/MapWrapper/MapWrapper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "150">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E00AF79-198F-405A-A7EF-16E69CD72000"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MapWrapper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "updateUIView(_:context:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6E00AF79-198F-405A-A7EF-16E69CD72000 - 511c1826e7ccd723"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static MapWrapper.MapKitWrapper_Previews.previews.getter : some"
+                  moduleName = "MapWrapper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/miguel/cvs/MapWrapper/MapWrapper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "81">
+               </Location>
+               <Location
+                  uuid = "6E00AF79-198F-405A-A7EF-16E69CD72000 - 1ae74719c9eec012"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapWrapper.MapKitWrapper.updateUIView(_: __C.MKMapView, context: SwiftUI.UIViewRepresentableContext&lt;MapWrapper.MapKitWrapper&lt;&#x3c4;_0_0, &#x3c4;_0_1&gt;&gt;) -&gt; ()"
+                  moduleName = "MapWrapper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/miguel/cvs/MapWrapper/MapWrapper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "2594">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53908E54-E159-4FFE-A5DB-7BED66EAFB7E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MapWrapper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "updateUIView(_:context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
